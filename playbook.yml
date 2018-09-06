@@ -1,5 +1,5 @@
 ---
-  - hosts: test
+  - hosts: localhost
     tasks:
     - name: Test
       shell: ./test.sh {{ name }} 
